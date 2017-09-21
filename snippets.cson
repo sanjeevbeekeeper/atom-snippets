@@ -90,6 +90,19 @@
         """
         'leftLabelHTML': '<span style="padding: 3px 5px; border-radius: 3px; background-color: #563d7c; color: white;">Bootstrap</span>'
         'rightLabel': 'Table responsive'
+    # table responsive
+    'Bootstrap List group':
+        'prefix': 'bts-list-group'
+        'body': """
+            <!-- $1 -->
+                <ul class="list-group">
+                    <li class="list-group-item active"> $2 </li>
+                    <li class="list-group-item"> $3 </li>
+                </ul>
+            <!--// $1 -->
+        """
+        'leftLabelHTML': '<span style="padding: 3px 5px; border-radius: 3px; background-color: #563d7c; color: white;">Bootstrap</span>'
+        'rightLabel': 'Table responsive'
 
     ##### HTML
     # jQuery
