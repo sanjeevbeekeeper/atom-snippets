@@ -18,3 +18,4 @@ compile-cache/
 blob-store/
 .node-gyp/
 .apm
+github.cson
